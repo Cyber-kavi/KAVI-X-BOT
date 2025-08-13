@@ -1,9 +1,9 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || "ᴘᴜᴛ ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ ʜᴇʀᴇ."
+global.sessionID = process.env.SESSIONID || "pvdGWKLb#mGsrB1-GtMs0VoUeFLldblXXu3Dy-zExVPOPDsRXVdE"
 global.botname = process.env.BOTNAME || "KAVI-X MD"
-global.ownernumber = process.env.OWNERNUMBER || "94702128378"
+global.ownernumber = process.env.OWNERNUMBER || "94728810592"
 global.ownername = process.env.OWNERNAME || "Cyber Kavi"
 global.websitex = process.env.WEBSITEX || "https://kavi-x-bot-login.up.railway.app/"
 global.wagc = process.env.WAGC || "https://chat.whatsapp.com/CG9f0paHJzwDImXiydfuht"
@@ -13,7 +13,7 @@ global.author = process.env.AUTHOR || "Cyber Kavi"
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
 global.restart = process.env.RESTART || true
-global.mongoDB = process.env.MONGODB_URI || "ᴘᴜᴛ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ᴜʀɪ ʜᴇʀᴇ."
+global.mongoDB = process.env.MONGODB_URI || "mongodb://mongo:xpyZqfsvkLlBdetYGVfAZuOmtMQWThWl@nozomi.proxy.rlwy.net:57551"
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
